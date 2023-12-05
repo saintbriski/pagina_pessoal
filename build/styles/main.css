@@ -18,6 +18,7 @@ li {
   max-width: 960px;
   width: 100%;
   margin: 0 auto;
+  height: 100vh;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -33,7 +34,7 @@ li {
   }
 }
 header {
-  padding: 24px;
+  padding-bottom: 24px;
 }
 header .profile-avatar {
   display: block;
