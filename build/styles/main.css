@@ -17,7 +17,7 @@ li {
 .container {
   max-width: 960px;
   width: 100%;
-  margin: 0 auto;
+  margin: 26px auto;
   height: 100vh;
   display: flex;
   flex-direction: column;
@@ -37,7 +37,7 @@ header {
   padding-bottom: 24px;
 }
 header .profile-avatar {
-  display: block;
+  display: flex;
   margin: 0 auto 24px;
   border-radius: 50%;
 }
