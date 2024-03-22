@@ -95,6 +95,7 @@ header .profile-avatar {
 .projects-list-item1 img {
   height: 200px;
   transition: all ease 0.3s;
+  border-radius: 10px;
 }
 .projects-list-item1 img:hover {
   transform: scale(1.2);
