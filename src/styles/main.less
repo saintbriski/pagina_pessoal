@@ -23,11 +23,18 @@ body {
         list-style: none;
     }
 
+    .text-projects {
+        p {
+            text-align: center;
+            margin-top: 45px;
+            font-size: 24px;
+        }
+    }
+
 .container {
     max-width: 960px;
     width: 100%;
     margin: 26px auto;
-    height: 100vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -93,26 +100,33 @@ header {
 
 .projects-list {
     margin-top: 32px;
+    display: grid;
+    justify-content: center;
+    gap: 35px;
+    grid-template-columns: 1fr 1fr 1fr;
 
-    &-item {
-        a {
-            text-decoration: none;
-            background-color: #colors[buttonColor];
-            display: block;
-            padding: 16px 20px;
-            margin-bottom: 16px;
+    &-item1 {
+
+        p {
+            margin-top: 18px;
             text-align: center;
-            color: #colors[textColor];
-            font-weight: bold;
-            border-radius: 30px;
-            border: 2px solid #colors[buttonColor];
-            transition: all ease .5s;
+        }
 
+        .text2 {
+            text-align: center;
+        }
+        .text3 {
+            text-align: center;
+        }
+
+        img {
+            height: 200px;
+            transition: all ease .3s;
             &:hover {
-                color: #colors[buttonColor];
-                background-color: transparent;
-
+                transform: scale(1.2);
+                cursor: pointer;
             }
         }
+
     }
 }
