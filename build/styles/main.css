@@ -1,6 +1,9 @@
 .marginBottom8 {
   margin-bottom: 8px;
 }
+#link-github {
+  color: #c8d6e5;
+}
 * {
   margin: 0;
   padding: 0;
